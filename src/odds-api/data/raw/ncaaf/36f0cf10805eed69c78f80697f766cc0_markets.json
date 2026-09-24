@@ -1,0 +1,102 @@
+{
+  "id": "36f0cf10805eed69c78f80697f766cc0",
+  "sport_key": "americanfootball_ncaaf",
+  "sport_title": "NCAAF",
+  "commence_time": "2026-09-25T23:00:00Z",
+  "home_team": "Rutgers Scarlet Knights",
+  "away_team": "Howard Bison",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:38Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:38Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:38Z"
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:06Z"
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:20Z"
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:37Z"
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "correct_score",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:20Z"
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:22:28Z"
+        }
+      ]
+    }
+  ]
+}

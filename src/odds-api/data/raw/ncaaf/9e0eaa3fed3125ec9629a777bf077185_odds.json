@@ -1,0 +1,2338 @@
+{
+  "id": "9e0eaa3fed3125ec9629a777bf077185",
+  "sport_key": "americanfootball_ncaaf",
+  "sport_title": "NCAAF",
+  "commence_time": "2026-09-24T23:30:00Z",
+  "home_team": "Coastal Carolina Chanticleers",
+  "away_team": "Liberty Flames",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:31Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Peyton Jones",
+              "price": -140
+            },
+            {
+              "name": "Yes",
+              "description": "Kam Davis",
+              "price": -135
+            },
+            {
+              "name": "Yes",
+              "description": "Jevon Edwards",
+              "price": 105
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Knicely",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Deshawn Purdie",
+              "price": 155
+            },
+            {
+              "name": "Yes",
+              "description": "Deuce Bailey",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Makai Jackson",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Jamari Person",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Karmello English",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Colton Hinton",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Robby Washington",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Darius Copeland",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Clayton Coppock Jr.",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Tristian Gardner",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Zeke Wimbush",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Bryce Randolph",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Liberty Flames Defense",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Coastal Carolina Chanticleers Defense",
+              "price": 650
+            }
+          ]
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:25:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 152,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Deshawn Purdie",
+              "price": -205,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 140,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Deuce Bailey",
+              "price": -188,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:25:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": -114,
+              "point": 207.5
+            },
+            {
+              "name": "Under",
+              "description": "Deshawn Purdie",
+              "price": -114,
+              "point": 207.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": -114,
+              "point": 213.5
+            },
+            {
+              "name": "Under",
+              "description": "Deuce Bailey",
+              "price": -114,
+              "point": 213.5
+            }
+          ]
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:25:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": -114,
+              "point": 37.5
+            },
+            {
+              "name": "Under",
+              "description": "Colton Hinton",
+              "price": -114,
+              "point": 37.5
+            },
+            {
+              "name": "Over",
+              "description": "Clayton Coppock Jr.",
+              "price": -114,
+              "point": 38.5
+            },
+            {
+              "name": "Under",
+              "description": "Clayton Coppock Jr.",
+              "price": -114,
+              "point": 38.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": -114,
+              "point": 56.5
+            },
+            {
+              "name": "Under",
+              "description": "Makai Jackson",
+              "price": -114,
+              "point": 56.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": -114,
+              "point": 35.5
+            },
+            {
+              "name": "Under",
+              "description": "Karmello English",
+              "price": -114,
+              "point": 35.5
+            }
+          ]
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:25:31Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": -114,
+              "point": 50.5
+            },
+            {
+              "name": "Under",
+              "description": "Jevon Edwards",
+              "price": -114,
+              "point": 50.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": -114,
+              "point": 25.5
+            },
+            {
+              "name": "Under",
+              "description": "Deuce Bailey",
+              "price": -114,
+              "point": 25.5
+            },
+            {
+              "name": "Under",
+              "description": "Peyton Jones",
+              "price": -118,
+              "point": 47.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": -112,
+              "point": 47.5
+            }
+          ]
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:24:03Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 7000,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 380,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 950,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 1300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Clayton Coppock Jr.",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Robby Washington",
+              "price": 2700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Darius Copeland",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Liberty Flames Defense",
+              "price": 6000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zeke Wimbush",
+              "price": 6000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Coastal Carolina Chanticleers Defense",
+              "price": 8000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": 8000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 1700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": 2700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": 2700,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 4500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 8000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 8000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 12500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 15000,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:47Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Deshawn Purdie",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Kam Davis",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Bryce Randolph",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Deuce Bailey",
+              "price": 135
+            },
+            {
+              "name": "Yes",
+              "description": "Darius Copeland",
+              "price": 370
+            },
+            {
+              "name": "Yes",
+              "description": "Peyton Jones",
+              "price": -155
+            },
+            {
+              "name": "Yes",
+              "description": "Jevon Edwards",
+              "price": -106
+            },
+            {
+              "name": "Yes",
+              "description": "Clayton Coppock Jr.",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Zeke Wimbush",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Jamari Person",
+              "price": 360
+            },
+            {
+              "name": "Yes",
+              "description": "Makai Jackson",
+              "price": 230
+            },
+            {
+              "name": "Yes",
+              "description": "Karmello English",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Knicely",
+              "price": 108
+            },
+            {
+              "name": "Yes",
+              "description": "Robby Washington",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Goldie Lawrence",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Tristian Gardner",
+              "price": 340
+            },
+            {
+              "name": "Yes",
+              "description": "Colton Hinton",
+              "price": 255
+            }
+          ]
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:25:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 128,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 133,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:25:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": -121,
+              "point": 205.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": -122,
+              "point": 207.5
+            }
+          ]
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:25:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": -121,
+              "point": 36.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": -118,
+              "point": 28.5
+            },
+            {
+              "name": "Over",
+              "description": "Clayton Coppock Jr.",
+              "price": -120,
+              "point": 36.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": -120,
+              "point": 35.5
+            }
+          ]
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:25:47Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": -125,
+              "point": 30.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": -122,
+              "point": 26.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": -122,
+              "point": 48.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": -122,
+              "point": 48.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": -118,
+              "point": 26.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:25:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kam Davis",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Jevon Edwards",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Deshawn Purdie",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Knicely",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Peyton Jones",
+              "price": 850
+            },
+            {
+              "name": "Yes",
+              "description": "Deuce Bailey",
+              "price": 950
+            },
+            {
+              "name": "Yes",
+              "description": "Jaylon Coleman",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Makai Jackson",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jamari Person",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "Clayton Coppock Jr.",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Colton Hinton",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Robby Washington",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Terron Kellman",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Karmello English",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Tristian Gardner",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Darius Copeland",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Liberty Flames D/ST",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Cyrus Ellison",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Bryce Randolph",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Coastal Carolina Chanticleers D/ST",
+              "price": 3500
+            },
+            {
+              "name": "Yes",
+              "description": "Goldie Lawrence",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "Zeke Wimbush",
+              "price": 4500
+            },
+            {
+              "name": "Yes",
+              "description": "No Touchdown",
+              "price": 20000
+            }
+          ]
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:08Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Kam Davis",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Jevon Edwards",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Peyton Jones",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Deshawn Purdie",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Knicely",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Jaylon Coleman",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Deuce Bailey",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Makai Jackson",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Clayton Coppock Jr.",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Colton Hinton",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Jamari Person",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Terron Kellman",
+              "price": 295
+            },
+            {
+              "name": "Yes",
+              "description": "Robby Washington",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Karmello English",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Tristian Gardner",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Darius Copeland",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Liberty Flames D/ST",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Bryce Randolph",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Coastal Carolina Chanticleers D/ST",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Cyrus Ellison",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Goldie Lawrence",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Zeke Wimbush",
+              "price": 750
+            }
+          ]
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:08Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": 700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaylon Coleman",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Clayton Coppock Jr.",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Terron Kellman",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": 3500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Robby Washington",
+              "price": 3500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 3500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Darius Copeland",
+              "price": 4000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Liberty Flames D/ST",
+              "price": 7000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Coastal Carolina Chanticleers D/ST",
+              "price": 8000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": 9000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyrus Ellison",
+              "price": 10000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 10000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zeke Wimbush",
+              "price": 12000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Goldie Lawrence",
+              "price": 15000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": 2800,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": 3500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": 4000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 4000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 4000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaylon Coleman",
+              "price": 5500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 5500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 11000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": 15000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Terron Kellman",
+              "price": 16000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Clayton Coppock Jr.",
+              "price": 16000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 17000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 17000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Robby Washington",
+              "price": 19000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": 19000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Darius Copeland",
+              "price": 30000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Liberty Flames D/ST",
+              "price": 35000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Coastal Carolina Chanticleers D/ST",
+              "price": 40000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyrus Ellison",
+              "price": 40000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": 45000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Goldie Lawrence",
+              "price": 50000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Zeke Wimbush",
+              "price": 50000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 50000,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:24Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Colton Hinton",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Tristian Gardner",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Jamari Person",
+              "price": 260
+            },
+            {
+              "name": "Yes",
+              "description": "Makai Jackson",
+              "price": 180
+            },
+            {
+              "name": "Yes",
+              "description": "Deshawn Purdie",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Peyton Jones",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Zeke Wimbush",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Jevon Edwards",
+              "price": 100
+            },
+            {
+              "name": "Yes",
+              "description": "Deuce Bailey",
+              "price": 130
+            },
+            {
+              "name": "Yes",
+              "description": "Robby Washington",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Bryce Randolph",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Jaylon Coleman",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Karmello English",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Knicely",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Darius Copeland",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Terron Kellman",
+              "price": 290
+            },
+            {
+              "name": "Yes",
+              "description": "Breyahn Townsend",
+              "price": 400
+            },
+            {
+              "name": "Yes",
+              "description": "Kam Davis",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Cyrus Ellison",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Goldie Lawrence",
+              "price": 700
+            }
+          ]
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:25:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Deshawn Purdie",
+              "price": -167,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 128,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Deuce Bailey",
+              "price": -167,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:25:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": -114,
+              "point": 207.5
+            },
+            {
+              "name": "Under",
+              "description": "Deshawn Purdie",
+              "price": -114,
+              "point": 207.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": -114,
+              "point": 219.5
+            },
+            {
+              "name": "Under",
+              "description": "Deuce Bailey",
+              "price": -114,
+              "point": 219.5
+            }
+          ]
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:25:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": -112,
+              "point": 36.5
+            },
+            {
+              "name": "Under",
+              "description": "Jamari Person",
+              "price": -115,
+              "point": 36.5
+            },
+            {
+              "name": "Over",
+              "description": "Clayton Coppock Jr.",
+              "price": -114,
+              "point": 36.5
+            },
+            {
+              "name": "Under",
+              "description": "Clayton Coppock Jr.",
+              "price": -114,
+              "point": 36.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": -112,
+              "point": 52.5
+            },
+            {
+              "name": "Under",
+              "description": "Makai Jackson",
+              "price": -115,
+              "point": 52.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": -114,
+              "point": 37.5
+            },
+            {
+              "name": "Under",
+              "description": "Colton Hinton",
+              "price": -114,
+              "point": 37.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": -114,
+              "point": 12.5
+            },
+            {
+              "name": "Under",
+              "description": "Bryce Randolph",
+              "price": -114,
+              "point": 12.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": -106,
+              "point": 7.5
+            },
+            {
+              "name": "Under",
+              "description": "Dominic Knicely",
+              "price": -122,
+              "point": 7.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": -111,
+              "point": 30.5
+            },
+            {
+              "name": "Under",
+              "description": "Tristian Gardner",
+              "price": -116,
+              "point": 30.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": -114,
+              "point": 36.5
+            },
+            {
+              "name": "Under",
+              "description": "Karmello English",
+              "price": -114,
+              "point": 36.5
+            }
+          ]
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:25:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": -110,
+              "point": 31.5
+            },
+            {
+              "name": "Under",
+              "description": "Dominic Knicely",
+              "price": -118,
+              "point": 31.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": -111,
+              "point": 49.5
+            },
+            {
+              "name": "Under",
+              "description": "Jevon Edwards",
+              "price": -116,
+              "point": 49.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": -114,
+              "point": 18.5
+            },
+            {
+              "name": "Under",
+              "description": "Deshawn Purdie",
+              "price": -114,
+              "point": 18.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": -116,
+              "point": 30.5
+            },
+            {
+              "name": "Under",
+              "description": "Deuce Bailey",
+              "price": -111,
+              "point": 30.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": -114,
+              "point": 47.5
+            },
+            {
+              "name": "Under",
+              "description": "Peyton Jones",
+              "price": -114,
+              "point": 47.5
+            }
+          ]
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:24Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 7400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 20000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 4400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 550,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": 1200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": 8400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": 200,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": 10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": 260,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": 1800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 7400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 180,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 1000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 2400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 1500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": -143,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zeke Wimbush",
+              "price": 3900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zeke Wimbush",
+              "price": 500,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zeke Wimbush",
+              "price": 20000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": 2400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": 500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jevon Edwards",
+              "price": 100,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 130,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 3900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Robby Washington",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Robby Washington",
+              "price": 2400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Robby Washington",
+              "price": 12000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": 15000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": 3400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaylon Coleman",
+              "price": -143,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaylon Coleman",
+              "price": 1500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaylon Coleman",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 11000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": 550,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": 2900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Dominic Knicely",
+              "price": 110,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Darius Copeland",
+              "price": 11000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Darius Copeland",
+              "price": 270,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Darius Copeland",
+              "price": 1900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Terron Kellman",
+              "price": 290,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Terron Kellman",
+              "price": 2300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Terron Kellman",
+              "price": 11000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Breyahn Townsend",
+              "price": 3400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Breyahn Townsend",
+              "price": 15000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Breyahn Townsend",
+              "price": 400,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": 1500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": -143,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyrus Ellison",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyrus Ellison",
+              "price": 5400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyrus Ellison",
+              "price": 20000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Goldie Lawrence",
+              "price": 5900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Goldie Lawrence",
+              "price": 20000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Goldie Lawrence",
+              "price": 700,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:25:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Jevon Edwards",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Deshawn Purdie",
+              "price": 800
+            },
+            {
+              "name": "Yes",
+              "description": "Liberty Flames D/ST",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Coastal Carolina Chanticleers D/ST",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "No Touchdown",
+              "price": 20000
+            },
+            {
+              "name": "Yes",
+              "description": "Robby Washington",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Deuce Bailey",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Jamari Person",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Cyrus Ellison",
+              "price": 3300
+            },
+            {
+              "name": "Yes",
+              "description": "Clayton Coppock Jr.",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Goldie Lawrence",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Makai Jackson",
+              "price": 1400
+            },
+            {
+              "name": "Yes",
+              "description": "Jaylon Coleman",
+              "price": 1000
+            },
+            {
+              "name": "Yes",
+              "description": "Peyton Jones",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Darius Copeland",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Knicely",
+              "price": 825
+            },
+            {
+              "name": "Yes",
+              "description": "Tristian Gardner",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Colton Hinton",
+              "price": 1800
+            },
+            {
+              "name": "Yes",
+              "description": "Zeke Wimbush",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Kam Davis",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Terron Kellman",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Karmello English",
+              "price": 2000
+            },
+            {
+              "name": "Yes",
+              "description": "Bryce Randolph",
+              "price": 3300
+            }
+          ]
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:51Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Tristian Gardner",
+              "price": 330
+            },
+            {
+              "name": "Yes",
+              "description": "Clayton Coppock Jr.",
+              "price": 270
+            },
+            {
+              "name": "Yes",
+              "description": "Jaylon Coleman",
+              "price": 140
+            },
+            {
+              "name": "Yes",
+              "description": "Makai Jackson",
+              "price": 200
+            },
+            {
+              "name": "Yes",
+              "description": "Darius Copeland",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Jevon Edwards",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Colton Hinton",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Jamari Person",
+              "price": 285
+            },
+            {
+              "name": "Yes",
+              "description": "Deuce Bailey",
+              "price": 145
+            },
+            {
+              "name": "Yes",
+              "description": "Zeke Wimbush",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Liberty Flames D/ST",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Kam Davis",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Dominic Knicely",
+              "price": 115
+            },
+            {
+              "name": "Yes",
+              "description": "Peyton Jones",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "Coastal Carolina Chanticleers D/ST",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Terron Kellman",
+              "price": 295
+            },
+            {
+              "name": "Yes",
+              "description": "Karmello English",
+              "price": 320
+            },
+            {
+              "name": "Yes",
+              "description": "Bryce Randolph",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Goldie Lawrence",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Deshawn Purdie",
+              "price": 110
+            },
+            {
+              "name": "Yes",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Robby Washington",
+              "price": 310
+            },
+            {
+              "name": "Yes",
+              "description": "Cyrus Ellison",
+              "price": 625
+            }
+          ]
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:25:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 150,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Deshawn Purdie",
+              "price": -200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 140,
+              "point": 1.5
+            },
+            {
+              "name": "Under",
+              "description": "Deuce Bailey",
+              "price": -185,
+              "point": 1.5
+            }
+          ]
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:25:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": -115,
+              "point": 56.5
+            },
+            {
+              "name": "Under",
+              "description": "Makai Jackson",
+              "price": -115,
+              "point": 56.5
+            }
+          ]
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:51Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Clayton Coppock Jr.",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Robby Washington",
+              "price": 3500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deshawn Purdie",
+              "price": 750,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Terron Kellman",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaylon Coleman",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Karmello English",
+              "price": 3500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jamari Person",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "LaKelsey Johnson Jr.",
+              "price": 10000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Bryce Randolph",
+              "price": 9000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Deuce Bailey",
+              "price": 1100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cyrus Ellison",
+              "price": 10000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Kam Davis",
+              "price": 600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zeke Wimbush",
+              "price": 10000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Liberty Flames D/ST",
+              "price": 7000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Coastal Carolina Chanticleers D/ST",
+              "price": 8000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tristian Gardner",
+              "price": 3500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Colton Hinton",
+              "price": 2800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Goldie Lawrence",
+              "price": 15000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Peyton Jones",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Darius Copeland",
+              "price": 4000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Makai Jackson",
+              "price": 1800,
+              "point": 1.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

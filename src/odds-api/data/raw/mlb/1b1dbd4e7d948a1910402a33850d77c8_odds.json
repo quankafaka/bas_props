@@ -1,0 +1,46 @@
+{
+  "id": "1b1dbd4e7d948a1910402a33850d77c8",
+  "sport_key": "baseball_mlb",
+  "sport_title": "MLB",
+  "commence_time": "2026-09-24T18:21:00Z",
+  "home_team": "Chicago Cubs",
+  "away_team": "Miami Marlins",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "pitcher_strikeouts",
+          "last_update": "2026-09-24T02:25:36Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Matthew Boyd",
+              "price": -113,
+              "point": 4.5
+            },
+            {
+              "name": "Under",
+              "description": "Matthew Boyd",
+              "price": -113,
+              "point": 4.5
+            },
+            {
+              "name": "Over",
+              "description": "Tyler Phillips",
+              "price": -148,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Tyler Phillips",
+              "price": 116,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

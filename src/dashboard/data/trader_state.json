@@ -1,0 +1,99 @@
+{
+ "snapshot": "2026-09-24T02:25:55.130444+00:00",
+ "settings": {
+  "default_vig": 0.0365,
+  "simulator": true
+ },
+ "games": {},
+ "props": {
+  "ca2c6af9c65d99ec92728e8b8c76fae9|pitcher_strikeouts|Kyle Leahy": {
+   "offered": false,
+   "suspended": false,
+   "line": null,
+   "prices": null
+  },
+  "ca2c6af9c65d99ec92728e8b8c76fae9|pitcher_strikeouts|Paul Skenes": {
+   "offered": false,
+   "suspended": false,
+   "line": null,
+   "prices": null
+  },
+  "1b1dbd4e7d948a1910402a33850d77c8|pitcher_strikeouts|Matthew Boyd": {
+   "offered": false,
+   "suspended": false,
+   "line": null,
+   "prices": null
+  },
+  "1b1dbd4e7d948a1910402a33850d77c8|pitcher_strikeouts|Tyler Phillips": {
+   "offered": false,
+   "suspended": false,
+   "line": null,
+   "prices": null
+  },
+  "9e0eaa3fed3125ec9629a777bf077185|player_pass_tds|Deshawn Purdie": {
+   "offered": false,
+   "suspended": false,
+   "line": null,
+   "prices": null
+  }
+ },
+ "log": [
+  {
+   "ts": 1790217388.9899561,
+   "text": "Kyle Leahy Pitcher Strikeouts: line 3.5 to 4.5"
+  },
+  {
+   "ts": 1790217390.147226,
+   "text": "Kyle Leahy Pitcher Strikeouts: line 4.5 to 3.5"
+  },
+  {
+   "ts": 1790217391.493332,
+   "text": "Kyle Leahy Pitcher Strikeouts: line 3.5 to 4.5"
+  },
+  {
+   "ts": 1790217392.637015,
+   "text": "Kyle Leahy Pitcher Strikeouts: line 4.5 to 3.5"
+  },
+  {
+   "ts": 1790219198.177026,
+   "text": "Kyle Leahy Pitcher Strikeouts: moved prices, Over -133 to -139, Under +115 to +120"
+  },
+  {
+   "ts": 1790219199.857117,
+   "text": "Kyle Leahy Pitcher Strikeouts: reset to consensus"
+  },
+  {
+   "ts": 1790219201.053688,
+   "text": "Paul Skenes Pitcher Strikeouts: moved prices, Over -149 to -144, Under +128 to +124"
+  },
+  {
+   "ts": 1790219202.688512,
+   "text": "Paul Skenes Pitcher Strikeouts: reset to consensus"
+  },
+  {
+   "ts": 1790219207.020154,
+   "text": "Matthew Boyd Pitcher Strikeouts: moved prices, Under -108 to -107"
+  },
+  {
+   "ts": 1790219208.203348,
+   "text": "Matthew Boyd Pitcher Strikeouts: reset to consensus"
+  },
+  {
+   "ts": 1790219209.170924,
+   "text": "Tyler Phillips Pitcher Strikeouts: moved prices, Over -140 to -130, Under +121 to +112"
+  },
+  {
+   "ts": 1790219210.3226829,
+   "text": "Tyler Phillips Pitcher Strikeouts: reset to consensus"
+  },
+  {
+   "ts": 1790219218.794558,
+   "text": "Deshawn Purdie Pass TDs: vig 3.65% to 3.90%, repriced 1 prop"
+  },
+  {
+   "ts": 1790219220.5613701,
+   "text": "Deshawn Purdie Pass TDs: reset to consensus"
+  }
+ ],
+ "markets": {}
+}

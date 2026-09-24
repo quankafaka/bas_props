@@ -1,0 +1,1140 @@
+{
+  "id": "d9a781a64fc2c4b45290db32b5ec3f20",
+  "sport_key": "americanfootball_ncaaf",
+  "sport_title": "NCAAF",
+  "commence_time": "2026-09-25T20:00:00Z",
+  "home_team": "Temple Owls",
+  "away_team": "Army Black Knights",
+  "bookmakers": [
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cale Hellums",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Keveun Mason",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Godspower Nwawuihe",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Zach Mundell",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Ajani Sheppard",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Jayce Freeman",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Samari Howard",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Colin Chase",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Peter Clarke",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "JoJo Bermudez",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Jake Rendina",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Stratton Fuller",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Hunter Smith",
+              "price": 3000
+            },
+            {
+              "name": "Yes",
+              "description": "Ryder Kusch",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Lloyd Benson III",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Brady Anderson",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Army Black Knights D/ST",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Temple Owls D/ST",
+              "price": 5500
+            },
+            {
+              "name": "Yes",
+              "description": "Tobi Olawole",
+              "price": 9000
+            },
+            {
+              "name": "Yes",
+              "description": "Parker Poloskey",
+              "price": 10000
+            },
+            {
+              "name": "Yes",
+              "description": "No Touchdown",
+              "price": 25000
+            }
+          ]
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:15Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Cale Hellums",
+              "price": -220
+            },
+            {
+              "name": "Yes",
+              "description": "Godspower Nwawuihe",
+              "price": -140
+            },
+            {
+              "name": "Yes",
+              "description": "Keveun Mason",
+              "price": -130
+            },
+            {
+              "name": "Yes",
+              "description": "Zach Mundell",
+              "price": -105
+            },
+            {
+              "name": "Yes",
+              "description": "Ajani Sheppard",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Jayce Freeman",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Samari Howard",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Colin Chase",
+              "price": 245
+            },
+            {
+              "name": "Yes",
+              "description": "Peter Clarke",
+              "price": 265
+            },
+            {
+              "name": "Yes",
+              "description": "JoJo Bermudez",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Jake Rendina",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Stratton Fuller",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Brady Anderson",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Hunter Smith",
+              "price": 550
+            },
+            {
+              "name": "Yes",
+              "description": "Army Black Knights D/ST",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Lloyd Benson III",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Ryder Kusch",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Temple Owls D/ST",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Tobi Olawole",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Parker Poloskey",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:24:15Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Cale Hellums",
+              "price": 260,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Godspower Nwawuihe",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Keveun Mason",
+              "price": 475,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Zach Mundell",
+              "price": 650,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ajani Sheppard",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jayce Freeman",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Samari Howard",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Colin Chase",
+              "price": 2200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Peter Clarke",
+              "price": 2500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "JoJo Bermudez",
+              "price": 3000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jake Rendina",
+              "price": 4000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Stratton Fuller",
+              "price": 5500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hunter Smith",
+              "price": 6500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brady Anderson",
+              "price": 6500,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Army Black Knights D/ST",
+              "price": 7000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lloyd Benson III",
+              "price": 10000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ryder Kusch",
+              "price": 12000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Temple Owls D/ST",
+              "price": 13000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tobi Olawole",
+              "price": 25000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Parker Poloskey",
+              "price": 30000,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cale Hellums",
+              "price": 1000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Godspower Nwawuihe",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Keveun Mason",
+              "price": 2200,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Zach Mundell",
+              "price": 3000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ajani Sheppard",
+              "price": 8000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Samari Howard",
+              "price": 10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jayce Freeman",
+              "price": 10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Colin Chase",
+              "price": 13000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Peter Clarke",
+              "price": 17000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "JoJo Bermudez",
+              "price": 19000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Stratton Fuller",
+              "price": 25000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jake Rendina",
+              "price": 30000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brady Anderson",
+              "price": 35000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Army Black Knights D/ST",
+              "price": 35000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Hunter Smith",
+              "price": 45000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ryder Kusch",
+              "price": 50000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lloyd Benson III",
+              "price": 50000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Temple Owls D/ST",
+              "price": 50000,
+              "point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:35Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Peter Clarke",
+              "price": 220
+            },
+            {
+              "name": "Yes",
+              "description": "Zach Mundell",
+              "price": -111
+            },
+            {
+              "name": "Yes",
+              "description": "Jake Rendina",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Ryder Kusch",
+              "price": 750
+            },
+            {
+              "name": "Yes",
+              "description": "Parker Poloskey",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Samari Howard",
+              "price": 150
+            },
+            {
+              "name": "Yes",
+              "description": "Lloyd Benson III",
+              "price": 450
+            },
+            {
+              "name": "Yes",
+              "description": "Godspower Nwawuihe",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Tobi Olawole",
+              "price": 650
+            },
+            {
+              "name": "Yes",
+              "description": "Cale Hellums",
+              "price": -250
+            },
+            {
+              "name": "Yes",
+              "description": "Brady Anderson",
+              "price": 350
+            },
+            {
+              "name": "Yes",
+              "description": "Keveun Mason",
+              "price": -167
+            },
+            {
+              "name": "Yes",
+              "description": "Jayce Freeman",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "JoJo Bermudez",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Ajani Sheppard",
+              "price": 170
+            },
+            {
+              "name": "Yes",
+              "description": "Colin Chase",
+              "price": 240
+            },
+            {
+              "name": "Yes",
+              "description": "Hunter Smith",
+              "price": 250
+            },
+            {
+              "name": "Yes",
+              "description": "Stratton Fuller",
+              "price": 300
+            },
+            {
+              "name": "Yes",
+              "description": "Jaxon Smolik",
+              "price": 280
+            }
+          ]
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:35Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Peter Clarke",
+              "price": 1400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Peter Clarke",
+              "price": 220,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Peter Clarke",
+              "price": 9400,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Zach Mundell",
+              "price": 1900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Zach Mundell",
+              "price": -111,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Zach Mundell",
+              "price": 450,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jake Rendina",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Jake Rendina",
+              "price": 2400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jake Rendina",
+              "price": 12000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Ryder Kusch",
+              "price": 6400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ryder Kusch",
+              "price": 750,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ryder Kusch",
+              "price": 20000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Parker Poloskey",
+              "price": 5400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Parker Poloskey",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Parker Poloskey",
+              "price": 20000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Samari Howard",
+              "price": 800,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Samari Howard",
+              "price": 5900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Samari Howard",
+              "price": 150,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Lloyd Benson III",
+              "price": 17500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Lloyd Benson III",
+              "price": 3600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Lloyd Benson III",
+              "price": 450,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Godspower Nwawuihe",
+              "price": -143,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Godspower Nwawuihe",
+              "price": 350,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Godspower Nwawuihe",
+              "price": 1500,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tobi Olawole",
+              "price": 5400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Tobi Olawole",
+              "price": 20000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Tobi Olawole",
+              "price": 650,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cale Hellums",
+              "price": -250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Cale Hellums",
+              "price": 200,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Cale Hellums",
+              "price": 900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brady Anderson",
+              "price": 15000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Brady Anderson",
+              "price": 2900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Brady Anderson",
+              "price": 350,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Keveun Mason",
+              "price": -167,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Keveun Mason",
+              "price": 1300,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Keveun Mason",
+              "price": 300,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jayce Freeman",
+              "price": 6900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jayce Freeman",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jayce Freeman",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "JoJo Bermudez",
+              "price": 10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "JoJo Bermudez",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "JoJo Bermudez",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ajani Sheppard",
+              "price": 900,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Ajani Sheppard",
+              "price": 170,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Ajani Sheppard",
+              "price": 6900,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Colin Chase",
+              "price": 10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Colin Chase",
+              "price": 1600,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Colin Chase",
+              "price": 240,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Hunter Smith",
+              "price": 10000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Hunter Smith",
+              "price": 1700,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Hunter Smith",
+              "price": 250,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Stratton Fuller",
+              "price": 300,
+              "point": 0.5
+            },
+            {
+              "name": "Over",
+              "description": "Stratton Fuller",
+              "price": 12000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Stratton Fuller",
+              "price": 2400,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaxon Smolik",
+              "price": 11000,
+              "point": 2.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaxon Smolik",
+              "price": 2100,
+              "point": 1.5
+            },
+            {
+              "name": "Over",
+              "description": "Jaxon Smolik",
+              "price": 280,
+              "point": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Ajani Sheppard",
+              "price": 1100
+            },
+            {
+              "name": "Yes",
+              "description": "Cale Hellums",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Brady Anderson",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "JoJo Bermudez",
+              "price": 1900
+            },
+            {
+              "name": "Yes",
+              "description": "Zach Mundell",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Jake Rendina",
+              "price": 2200
+            },
+            {
+              "name": "Yes",
+              "description": "Peter Clarke",
+              "price": 1700
+            },
+            {
+              "name": "Yes",
+              "description": "No Touchdown",
+              "price": 25000
+            },
+            {
+              "name": "Yes",
+              "description": "Ryder Kusch",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Stratton Fuller",
+              "price": 2800
+            },
+            {
+              "name": "Yes",
+              "description": "Temple Owls D/ST",
+              "price": 5000
+            },
+            {
+              "name": "Yes",
+              "description": "Lloyd Benson III",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Jayce Freeman",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Colin Chase",
+              "price": 1600
+            },
+            {
+              "name": "Yes",
+              "description": "Army Black Knights D/ST",
+              "price": 4000
+            },
+            {
+              "name": "Yes",
+              "description": "Samari Howard",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Keveun Mason",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Parker Poloskey",
+              "price": 10000
+            },
+            {
+              "name": "Yes",
+              "description": "Godspower Nwawuihe",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Tobi Olawole",
+              "price": 9000
+            }
+          ]
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:03Z",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "description": "Lloyd Benson III",
+              "price": 625
+            },
+            {
+              "name": "Yes",
+              "description": "Ryder Kusch",
+              "price": 725
+            },
+            {
+              "name": "Yes",
+              "description": "Peter Clarke",
+              "price": 265
+            },
+            {
+              "name": "Yes",
+              "description": "Army Black Knights D/ST",
+              "price": 600
+            },
+            {
+              "name": "Yes",
+              "description": "Godspower Nwawuihe",
+              "price": -143
+            },
+            {
+              "name": "Yes",
+              "description": "Stratton Fuller",
+              "price": 440
+            },
+            {
+              "name": "Yes",
+              "description": "Jayce Freeman",
+              "price": 190
+            },
+            {
+              "name": "Yes",
+              "description": "Tobi Olawole",
+              "price": 1300
+            },
+            {
+              "name": "Yes",
+              "description": "Cale Hellums",
+              "price": -225
+            },
+            {
+              "name": "Yes",
+              "description": "Temple Owls D/ST",
+              "price": 900
+            },
+            {
+              "name": "Yes",
+              "description": "Keveun Mason",
+              "price": -132
+            },
+            {
+              "name": "Yes",
+              "description": "JoJo Bermudez",
+              "price": 275
+            },
+            {
+              "name": "Yes",
+              "description": "Ajani Sheppard",
+              "price": 175
+            },
+            {
+              "name": "Yes",
+              "description": "Hunter Smith",
+              "price": 525
+            },
+            {
+              "name": "Yes",
+              "description": "Jake Rendina",
+              "price": 380
+            },
+            {
+              "name": "Yes",
+              "description": "Brady Anderson",
+              "price": 500
+            },
+            {
+              "name": "Yes",
+              "description": "Zach Mundell",
+              "price": -110
+            },
+            {
+              "name": "Yes",
+              "description": "Parker Poloskey",
+              "price": 1500
+            },
+            {
+              "name": "Yes",
+              "description": "Samari Howard",
+              "price": 195
+            },
+            {
+              "name": "Yes",
+              "description": "Colin Chase",
+              "price": 245
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

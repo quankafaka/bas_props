@@ -1,0 +1,3272 @@
+[
+  {
+    "event_id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+    "sport": "nfl",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-09-25T00:15:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Atlanta Falcons",
+    "prop_markets": [
+      "player_1st_td",
+      "player_anytime_td",
+      "player_assists",
+      "player_field_goals",
+      "player_kicking_points",
+      "player_last_td",
+      "player_pass_attempts",
+      "player_pass_completions",
+      "player_pass_interceptions",
+      "player_pass_longest_completion",
+      "player_pass_rush_yds",
+      "player_pass_tds",
+      "player_pass_yds",
+      "player_pass_yds_q1",
+      "player_pats",
+      "player_reception_longest",
+      "player_reception_yds",
+      "player_receptions",
+      "player_rush_attempts",
+      "player_rush_longest",
+      "player_rush_reception_yds",
+      "player_rush_yds",
+      "player_sacks",
+      "player_solo_tackles",
+      "player_tackles_assists",
+      "player_tds_over"
+    ],
+    "game_lines": [
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 205
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -250
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 5.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -5.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 209
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -249
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 4.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -4.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 198
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -240
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 5.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -5.5,
+        "price": -104
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 210
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -265
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 5.0,
+        "price": -109
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -5.0,
+        "price": -112
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.0,
+        "price": -114
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.0,
+        "price": -107
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 207
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -250
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 5.0,
+        "price": -113
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -5.0,
+        "price": -107
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 207
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -250
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 4.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -4.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.0,
+        "price": -107
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.0,
+        "price": -107
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 216
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -275
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 5.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -5.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 210
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -250
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 5.0,
+        "price": -108
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -5.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.0,
+        "price": -108
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Atlanta Falcons",
+        "line": null,
+        "price": 210
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Green Bay Packers",
+        "line": null,
+        "price": -250
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Atlanta Falcons",
+        "line": 5.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Green Bay Packers",
+        "line": -5.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 43.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 43.0,
+        "price": -110
+      }
+    ]
+  },
+  {
+    "event_id": "b225458a282e140c44c45651255f2f6c",
+    "sport": "nfl",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-09-27T17:00:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Los Angeles Chargers",
+    "prop_markets": [
+      "player_1st_td",
+      "player_anytime_td",
+      "player_last_td",
+      "player_pass_attempts",
+      "player_pass_completions",
+      "player_pass_interceptions",
+      "player_pass_rush_yds",
+      "player_pass_tds",
+      "player_pass_yds",
+      "player_reception_longest",
+      "player_reception_yds",
+      "player_receptions",
+      "player_rush_attempts",
+      "player_rush_reception_yds",
+      "player_rush_yds",
+      "player_tds_over"
+    ],
+    "game_lines": [
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -345
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 275
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -375
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 300
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -385
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 275
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.0,
+        "price": -107
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -112
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -109
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -340
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 275
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -340
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 274
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.5,
+        "price": 102
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.5,
+        "price": -113
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -107
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -107
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -340
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 274
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.5,
+        "price": -104
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.5,
+        "price": -116
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -350
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 250
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -350
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 290
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -108
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Buffalo Bills",
+        "line": null,
+        "price": -340
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Los Angeles Chargers",
+        "line": null,
+        "price": 270
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Buffalo Bills",
+        "line": -7.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Los Angeles Chargers",
+        "line": 7.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -110
+      }
+    ]
+  },
+  {
+    "event_id": "613b8cd3a5fab58f7be4e3fd6f76223e",
+    "sport": "nfl",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-09-27T17:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Carolina Panthers",
+    "prop_markets": [
+      "player_1st_td",
+      "player_anytime_td",
+      "player_last_td",
+      "player_pass_attempts",
+      "player_pass_completions",
+      "player_pass_interceptions",
+      "player_pass_rush_yds",
+      "player_pass_tds",
+      "player_pass_yds",
+      "player_reception_longest",
+      "player_reception_yds",
+      "player_receptions",
+      "player_rush_attempts",
+      "player_rush_reception_yds",
+      "player_rush_yds",
+      "player_tds_over"
+    ],
+    "game_lines": [
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -148
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 124
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -2.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 2.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.5,
+        "price": -108
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.5,
+        "price": -112
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 129
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -3.0,
+        "price": 100
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 3.0,
+        "price": -120
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -146
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 124
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -2.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 2.5,
+        "price": -104
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 41.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 41.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -143
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 118
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -3.0,
+        "price": -106
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 3.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.0,
+        "price": -108
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.0,
+        "price": -113
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -3.0,
+        "price": 105
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 3.0,
+        "price": -116
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.0,
+        "price": -113
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.0,
+        "price": -102
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -3.0,
+        "price": -102
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 3.0,
+        "price": -118
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -154
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 120
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -145
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 125
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -2.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 2.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.0,
+        "price": -108
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Carolina Panthers",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Cleveland Browns",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Carolina Panthers",
+        "line": -2.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Cleveland Browns",
+        "line": 2.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 42.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 42.0,
+        "price": -105
+      }
+    ]
+  },
+  {
+    "event_id": "9e0eaa3fed3125ec9629a777bf077185",
+    "sport": "ncaaf",
+    "sport_key": "americanfootball_ncaaf",
+    "commence_time": "2026-09-24T23:30:00Z",
+    "home_team": "Coastal Carolina Chanticleers",
+    "away_team": "Liberty Flames",
+    "prop_markets": [
+      "player_1st_td",
+      "player_anytime_td",
+      "player_pass_tds",
+      "player_pass_yds",
+      "player_reception_yds",
+      "player_rush_yds",
+      "player_tds_over"
+    ],
+    "game_lines": [
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 116
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -140
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": -104
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 115
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -140
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 120
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 3.0,
+        "price": -118
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -3.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -114
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -109
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 114
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -135
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": -108
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -112
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 118
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -138
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": -104
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -108
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -108
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -108
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 118
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -138
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": -108
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -112
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 115
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -140
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -108
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 120
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -140
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Coastal Carolina Chanticleers",
+        "line": null,
+        "price": 115
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Liberty Flames",
+        "line": null,
+        "price": -135
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Coastal Carolina Chanticleers",
+        "line": 2.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Liberty Flames",
+        "line": -2.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 50.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 50.0,
+        "price": -105
+      }
+    ]
+  },
+  {
+    "event_id": "d9a781a64fc2c4b45290db32b5ec3f20",
+    "sport": "ncaaf",
+    "sport_key": "americanfootball_ncaaf",
+    "commence_time": "2026-09-25T20:00:00Z",
+    "home_team": "Temple Owls",
+    "away_team": "Army Black Knights",
+    "prop_markets": [
+      "player_1st_td",
+      "player_anytime_td",
+      "player_tds_over"
+    ],
+    "game_lines": [
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -160
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 132
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -158
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 128
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -157
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 125
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -112
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -112
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.0,
+        "price": -114
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.0,
+        "price": -109
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -155
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 47.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 47.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -106
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -106
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.5,
+        "price": -103
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.5,
+        "price": -114
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -160
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.5,
+        "price": -105
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.5,
+        "price": -125
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 129
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Army Black Knights",
+        "line": null,
+        "price": -150
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Temple Owls",
+        "line": null,
+        "price": 130
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Army Black Knights",
+        "line": -3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Temple Owls",
+        "line": 3.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 48.0,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 48.0,
+        "price": -110
+      }
+    ]
+  },
+  {
+    "event_id": "36f0cf10805eed69c78f80697f766cc0",
+    "sport": "ncaaf",
+    "sport_key": "americanfootball_ncaaf",
+    "commence_time": "2026-09-25T23:00:00Z",
+    "home_team": "Rutgers Scarlet Knights",
+    "away_team": "Howard Bison",
+    "prop_markets": [],
+    "game_lines": [
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Howard Bison",
+        "line": null,
+        "price": -100000
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Rutgers Scarlet Knights",
+        "line": null,
+        "price": -100000
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Howard Bison",
+        "line": 44.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Rutgers Scarlet Knights",
+        "line": -44.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 56.5,
+        "price": -106
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 56.5,
+        "price": -114
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Howard Bison",
+        "line": 43.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Rutgers Scarlet Knights",
+        "line": -43.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 56.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 56.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Howard Bison",
+        "line": 43.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Rutgers Scarlet Knights",
+        "line": -43.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 56.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 56.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Howard Bison",
+        "line": 43.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Rutgers Scarlet Knights",
+        "line": -43.5,
+        "price": -113
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 54.5,
+        "price": -117
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 54.5,
+        "price": -107
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Howard Bison",
+        "line": 41.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Rutgers Scarlet Knights",
+        "line": -41.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 56.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 56.5,
+        "price": -110
+      }
+    ]
+  },
+  {
+    "event_id": "ca2c6af9c65d99ec92728e8b8c76fae9",
+    "sport": "mlb",
+    "sport_key": "baseball_mlb",
+    "commence_time": "2026-09-24T16:36:00Z",
+    "home_team": "Pittsburgh Pirates",
+    "away_team": "St. Louis Cardinals",
+    "prop_markets": [
+      "pitcher_strikeouts"
+    ],
+    "game_lines": [
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -162
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 136
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 152
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -184
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 6.5,
+        "price": -132
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 6.5,
+        "price": 108
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -155
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 140
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 145
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -165
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -155
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 140
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 146
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -165
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.0,
+        "price": -102
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.0,
+        "price": -113
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -163
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 135
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 144
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -175
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -162
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 136
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 155
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -180
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 6.5,
+        "price": -125
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 6.5,
+        "price": 105
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -160
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 135
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 145
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -180
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.0,
+        "price": 100
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.0,
+        "price": -120
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -157
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 132
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 140
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -175
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 6.5,
+        "price": -127
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 6.5,
+        "price": 105
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -160
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 135
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 134
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -159
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.0,
+        "price": -102
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.0,
+        "price": -120
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Pittsburgh Pirates",
+        "line": null,
+        "price": -155
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "St. Louis Cardinals",
+        "line": null,
+        "price": 138
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "Pittsburgh Pirates",
+        "line": -1.5,
+        "price": 144
+      },
+      {
+        "bookmaker": "betus",
+        "market": "spreads",
+        "side": "St. Louis Cardinals",
+        "line": 1.5,
+        "price": -165
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.0,
+        "price": -115
+      }
+    ]
+  },
+  {
+    "event_id": "1b1dbd4e7d948a1910402a33850d77c8",
+    "sport": "mlb",
+    "sport_key": "baseball_mlb",
+    "commence_time": "2026-09-24T18:21:00Z",
+    "home_team": "Chicago Cubs",
+    "away_team": "Miami Marlins",
+    "prop_markets": [
+      "pitcher_strikeouts"
+    ],
+    "game_lines": [
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -198
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 166
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Chicago Cubs",
+        "line": -1.5,
+        "price": 120
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Miami Marlins",
+        "line": 1.5,
+        "price": -144
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -189
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 159
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Chicago Cubs",
+        "line": -1.5,
+        "price": 117
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Miami Marlins",
+        "line": 1.5,
+        "price": -138
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.5,
+        "price": -107
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.5,
+        "price": -114
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -205
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 168
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Chicago Cubs",
+        "line": -1.5,
+        "price": 118
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Miami Marlins",
+        "line": 1.5,
+        "price": -143
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -200
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 165
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Chicago Cubs",
+        "line": -1.5,
+        "price": 120
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Miami Marlins",
+        "line": 1.5,
+        "price": -140
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -200
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 165
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Chicago Cubs",
+        "line": -1.5,
+        "price": 108
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Miami Marlins",
+        "line": 1.5,
+        "price": -132
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.5,
+        "price": -113
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.5,
+        "price": -108
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -200
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 180
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -200
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 180
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -200
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 174
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Chicago Cubs",
+        "line": null,
+        "price": -210
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Miami Marlins",
+        "line": null,
+        "price": 170
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Chicago Cubs",
+        "line": -1.5,
+        "price": 120
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Miami Marlins",
+        "line": 1.5,
+        "price": -145
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 7.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 7.5,
+        "price": -110
+      }
+    ]
+  },
+  {
+    "event_id": "c862b8f01d10ebafd1c1ee08cf8ba9ce",
+    "sport": "mlb",
+    "sport_key": "baseball_mlb",
+    "commence_time": "2026-09-24T19:11:00Z",
+    "home_team": "Colorado Rockies",
+    "away_team": "Arizona Diamondbacks",
+    "prop_markets": [],
+    "game_lines": [
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -176
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 148
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "fanduel",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.5,
+        "price": -122
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -183
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 155
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.0,
+        "price": -113
+      },
+      {
+        "bookmaker": "mybookieag",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.0,
+        "price": -109
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -187
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 154
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "draftkings",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -179
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 147
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": -110
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.5,
+        "price": 105
+      },
+      {
+        "bookmaker": "bovada",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.5,
+        "price": -125
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -190
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 154
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -118
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": -102
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betmgm",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -183
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 165
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -117
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": 103
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.0,
+        "price": -113
+      },
+      {
+        "bookmaker": "lowvig",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.0,
+        "price": -102
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -183
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 165
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -120
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betonlineag",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.0,
+        "price": -105
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -180
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 150
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Arizona Diamondbacks",
+        "line": -1.5,
+        "price": -115
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "spreads",
+        "side": "Colorado Rockies",
+        "line": 1.5,
+        "price": -106
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.5,
+        "price": 100
+      },
+      {
+        "bookmaker": "betrivers",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.5,
+        "price": -121
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Arizona Diamondbacks",
+        "line": null,
+        "price": -180
+      },
+      {
+        "bookmaker": "betus",
+        "market": "h2h",
+        "side": "Colorado Rockies",
+        "line": null,
+        "price": 158
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Over",
+        "line": 10.0,
+        "price": -115
+      },
+      {
+        "bookmaker": "betus",
+        "market": "totals",
+        "side": "Under",
+        "line": 10.0,
+        "price": -105
+      }
+    ]
+  }
+]

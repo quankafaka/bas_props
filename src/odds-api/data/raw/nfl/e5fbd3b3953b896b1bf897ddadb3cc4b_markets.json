@@ -1,0 +1,1652 @@
+{
+  "id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+  "sport_key": "americanfootball_nfl",
+  "sport_title": "NFL",
+  "commence_time": "2026-09-25T00:15:00Z",
+  "home_team": "Green Bay Packers",
+  "away_team": "Atlanta Falcons",
+  "bookmakers": [
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_spreads_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_spreads_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_spreads_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_totals_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "alternate_totals_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "correct_score",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_3_way_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_3_way_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_q2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_q3",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "h2h_q4",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "halftime_fulltime",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "last_team_to_score",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "longest_td_yds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "odd_even_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "odd_even_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "odd_even_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_anytime_td_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_anytime_td_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_anytime_td_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_assists",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_assists_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_last_td",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_attempts",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_attempts_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_completions",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_completions_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_interceptions",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_interceptions_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_longest_completion",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_rush_yds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_rush_yds_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_tds_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_yds_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_yds_alternate_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_pass_yds_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_reception_longest",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_reception_yds_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_reception_yds_alternate_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_reception_yds_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_receptions",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_receptions_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_attempts",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_attempts_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_longest",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_reception_yds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_reception_yds_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_yds_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_yds_alternate_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_yds_alternate_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_yds_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_rush_yds_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_sacks",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_sacks_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_solo_tackles",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_solo_tackles_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_tackles_assists",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_tackles_assists_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "spreads_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "spreads_q2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "spreads_q3",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "spreads_q4",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "team_totals_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "team_totals_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "team_totals_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "total_td_yds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "total_tds",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "total_tds_alternate",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "totals_h2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "totals_q2",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "totals_q3",
+          "last_update": "2026-09-24T02:24:54Z"
+        },
+        {
+          "key": "totals_q4",
+          "last_update": "2026-09-24T02:24:54Z"
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:24:30Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "h2h_3_way_q1",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "player_pass_tds_alternate",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "player_pass_yds_alternate",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "player_reception_yds_alternate",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "player_receptions_alternate",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "player_rush_yds_alternate",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:24:30Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:24:30Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:24:53Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:24:53Z"
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:07Z"
+        }
+      ]
+    },
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_spreads_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_spreads_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_team_totals_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_team_totals_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_totals_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "alternate_totals_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "first_team_to_score",
+          "last_update": "2026-09-24T02:23:38Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_3_way_q1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_3_way_q2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_3_way_q3",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_3_way_q4",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_q2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_q3",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "h2h_q4",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_anytime_td_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_anytime_td_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_anytime_td_q1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_anytime_td_q2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_anytime_td_q3",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_anytime_td_q4",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_last_td",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_pass_tds_alternate",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_pass_yds_alternate",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_reception_longest",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_reception_longest_alternate",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_reception_yds_alternate",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_receptions",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_receptions_alternate",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_rush_reception_yds",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_rush_yds_alternate",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_sacks",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "spreads_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "spreads_q2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "spreads_q3",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "spreads_q4",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "team_totals_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "team_totals_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "totals_h2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "totals_q2",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "totals_q3",
+          "last_update": "2026-09-24T02:25:43Z"
+        },
+        {
+          "key": "totals_q4",
+          "last_update": "2026-09-24T02:25:43Z"
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "alternate_team_totals_h1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "alternate_team_totals_q1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "first_team_to_score",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "h2h_3_way_h2",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "h2h_3_way_q1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "h2h_h2",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_anytime_td_h1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_anytime_td_h2",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_kicking_points",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_completions",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_completions_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_interceptions",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_interceptions_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_longest_completion",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_rush_yds",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_tds_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_pass_yds_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_reception_longest",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_reception_yds_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_receptions",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_receptions_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_rush_attempts_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_rush_longest",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_rush_reception_yds",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_rush_reception_yds_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_rush_yds_alternate",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "spreads_h2",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "totals_h2",
+          "last_update": "2026-09-24T02:25:08Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:08Z"
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_attempts",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_completions",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_completions_alternate",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_interceptions",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_tds_alternate",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_pass_yds_alternate",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_reception_yds_alternate",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_receptions",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_receptions_alternate",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_rush_attempts",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_rush_attempts_alternate",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_rush_yds_alternate",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:24:46Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:24:46Z"
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:53Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:53Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:53Z"
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:24:27Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:24:27Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:24:27Z"
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "halftime_fulltime",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_field_goals",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_kicking_points",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_last_td",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_attempts",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_attempts_alternate",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_completions",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_rush_reception_yds",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_tds_alternate",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pass_yds_alternate",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_pats",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_reception_yds_alternate",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_receptions",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_receptions_alternate",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_rush_attempts",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_rush_attempts_alternate",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_rush_yds_alternate",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:24:40Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:05Z"
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "alternate_spreads_h1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "alternate_team_totals_h1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "alternate_team_totals_q1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "alternate_totals_q1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "correct_score",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "correct_score_h1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:39Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:39Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_field_goals",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_kicking_points",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_attempts",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_completions",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_interceptions",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_longest_completion",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_rush_yds",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pass_yds_alternate",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_pats",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_reception_longest",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_reception_yds_alternate",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_receptions",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_rush_reception_yds",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_rush_reception_yds_alternate",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_rush_yds_alternate",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:39Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "team_totals_h1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "team_totals_q1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "total_tds",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:39Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:19Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:19Z"
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "alternate_spreads_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "alternate_team_totals_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "alternate_team_totals_q1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "alternate_totals_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "btts_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:24:16Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "h2h_q2",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "h2h_q3",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "odd_even_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "odd_even_q1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_anytime_td_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_anytime_td_q1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_pass_attempts",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_pass_completions",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_pass_interceptions",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_pass_longest_completion",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_pass_tds",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_pass_tds_alternate",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_pass_yds",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_reception_longest",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_reception_yds",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_receptions",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_rush_yds",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:24:16Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "spreads_q2",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "spreads_q3",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "total_tds",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:24:16Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "totals_q2",
+          "last_update": "2026-09-24T02:24:44Z"
+        },
+        {
+          "key": "totals_q3",
+          "last_update": "2026-09-24T02:24:44Z"
+        }
+      ]
+    }
+  ]
+}

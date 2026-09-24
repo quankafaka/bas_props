@@ -1,0 +1,82 @@
+{
+  "id": "ca2c6af9c65d99ec92728e8b8c76fae9",
+  "sport_key": "baseball_mlb",
+  "sport_title": "MLB",
+  "commence_time": "2026-09-24T16:36:00Z",
+  "home_team": "Pittsburgh Pirates",
+  "away_team": "St. Louis Cardinals",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "pitcher_strikeouts",
+          "last_update": "2026-09-24T02:25:52Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Paul Skenes",
+              "price": -158,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Paul Skenes",
+              "price": 124,
+              "point": 5.5
+            },
+            {
+              "name": "Over",
+              "description": "Kyle Leahy",
+              "price": -138,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Kyle Leahy",
+              "price": 108,
+              "point": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "pitcher_strikeouts",
+          "last_update": "2026-09-24T02:23:10Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "description": "Kyle Leahy",
+              "price": -145,
+              "point": 3.5
+            },
+            {
+              "name": "Under",
+              "description": "Kyle Leahy",
+              "price": 110,
+              "point": 3.5
+            },
+            {
+              "name": "Over",
+              "description": "Paul Skenes",
+              "price": -160,
+              "point": 5.5
+            },
+            {
+              "name": "Under",
+              "description": "Paul Skenes",
+              "price": 120,
+              "point": 5.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

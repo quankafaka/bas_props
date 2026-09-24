@@ -1,0 +1,710 @@
+{
+  "id": "d9a781a64fc2c4b45290db32b5ec3f20",
+  "sport_key": "americanfootball_ncaaf",
+  "sport_title": "NCAAF",
+  "commence_time": "2026-09-25T20:00:00Z",
+  "home_team": "Temple Owls",
+  "away_team": "Army Black Knights",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:38Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:21:34Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "h2h_q2",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "h2h_q3",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "h2h_q4",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:38Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "spreads_q2",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "spreads_q3",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "spreads_q4",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:38Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "totals_q2",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "totals_q3",
+          "last_update": "2026-09-24T02:25:36Z"
+        },
+        {
+          "key": "totals_q4",
+          "last_update": "2026-09-24T02:25:36Z"
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:04Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:04Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:04Z"
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "alternate_team_totals_h1",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "first_team_to_score",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:06Z"
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "alternate_spreads_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "alternate_spreads_q1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "alternate_totals_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "alternate_totals_q1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "correct_score",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h_3_way_h2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h_h2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h_q2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h_q3",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "h2h_q4",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "halftime_fulltime",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "last_team_to_score",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "odd_even_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "odd_even_h2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "player_anytime_td_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "player_anytime_td_q1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "spreads_h2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "spreads_q2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "spreads_q3",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "spreads_q4",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "team_totals_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "team_totals_h2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "team_totals_q1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "total_tds",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "totals_h2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "totals_q2",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "totals_q3",
+          "last_update": "2026-09-24T02:24:15Z"
+        },
+        {
+          "key": "totals_q4",
+          "last_update": "2026-09-24T02:24:15Z"
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:06Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:06Z"
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:25:35Z"
+        },
+        {
+          "key": "player_tds_over",
+          "last_update": "2026-09-24T02:25:35Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:35Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:35Z"
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:22:28Z"
+        },
+        {
+          "key": "h2h_3_way_h1",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "h2h_3_way_q1",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:22:28Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:22:28Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:24:00Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:24:00Z"
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "alternate_spreads_h1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "alternate_totals_q1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:56Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:56Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "odd_even_h1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "odd_even_q1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:56Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:56Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:47Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:47Z"
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:25:37Z"
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "alternate_spreads_h1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "alternate_team_totals_h1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "alternate_team_totals_q1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:09Z"
+        },
+        {
+          "key": "h2h_h1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "h2h_q1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "player_1st_td",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "player_anytime_td",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "player_anytime_td_h1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "player_anytime_td_q1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:09Z"
+        },
+        {
+          "key": "spreads_h1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "spreads_q1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:09Z"
+        },
+        {
+          "key": "totals_h1",
+          "last_update": "2026-09-24T02:24:03Z"
+        },
+        {
+          "key": "totals_q1",
+          "last_update": "2026-09-24T02:24:03Z"
+        }
+      ]
+    }
+  ]
+}

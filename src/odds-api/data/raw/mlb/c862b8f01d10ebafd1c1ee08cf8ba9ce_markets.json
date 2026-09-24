@@ -1,0 +1,524 @@
+{
+  "id": "c862b8f01d10ebafd1c1ee08cf8ba9ce",
+  "sport_key": "baseball_mlb",
+  "sport_title": "MLB",
+  "commence_time": "2026-09-24T19:11:00Z",
+  "home_team": "Colorado Rockies",
+  "away_team": "Arizona Diamondbacks",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_1st_1_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_1st_5_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_2nd_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_3rd_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_4th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_5th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_6th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_7th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_8th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_spreads_9th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_1st_1_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_1st_5_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_2nd_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_3rd_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_4th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_5th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_6th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_7th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_8th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "alternate_totals_9th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "correct_score",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "h2h_1st_5_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_1st_1_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_1st_3_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_1st_5_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_1st_7_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_2nd_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_3rd_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_4th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_5th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_6th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_7th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_8th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_3_way_9th_inning",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "spreads_1st_3_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "spreads_1st_5_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "spreads_1st_7_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:37Z"
+        },
+        {
+          "key": "totals_1st_1_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "totals_1st_5_innings",
+          "last_update": "2026-09-24T02:25:21Z"
+        }
+      ]
+    },
+    {
+      "key": "fanatics",
+      "title": "Fanatics",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "alternate_spreads_1st_1_innings",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "alternate_spreads_1st_3_innings",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "alternate_totals_1st_1_innings",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "alternate_totals_1st_3_innings",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "h2h_1st_3_innings",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "h2h_3_way",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "h2h_3_way_1st_1_innings",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "h2h_3_way_1st_3_innings",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "overtime",
+          "last_update": "2026-09-24T02:25:12Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:21Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:21Z"
+        }
+      ]
+    },
+    {
+      "key": "mybookieag",
+      "title": "MyBookie.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:24:13Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:24:13Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:24:13Z"
+        }
+      ]
+    },
+    {
+      "key": "draftkings",
+      "title": "DraftKings",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:24:49Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:24:49Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:24:49Z"
+        }
+      ]
+    },
+    {
+      "key": "bovada",
+      "title": "Bovada",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "alternate_spreads_1st_5_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "alternate_totals_1st_5_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "h2h_1st_1_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "h2h_1st_5_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "h2h_3_way_1st_1_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "h2h_3_way_1st_5_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "spreads_1st_5_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "team_totals",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "team_totals_1st_5_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:07Z"
+        },
+        {
+          "key": "totals_1st_5_innings",
+          "last_update": "2026-09-24T02:25:10Z"
+        }
+      ]
+    },
+    {
+      "key": "betmgm",
+      "title": "BetMGM",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:32Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:32Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:23:58Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:23:58Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:23:58Z"
+        }
+      ]
+    },
+    {
+      "key": "williamhill_us",
+      "title": "Caesars",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "alternate_team_totals",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:16Z"
+        },
+        {
+          "key": "h2h_1st_5_innings",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:16Z"
+        },
+        {
+          "key": "spreads_1st_5_innings",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:16Z"
+        },
+        {
+          "key": "totals_1st_1_innings",
+          "last_update": "2026-09-24T02:25:05Z"
+        },
+        {
+          "key": "totals_1st_5_innings",
+          "last_update": "2026-09-24T02:25:05Z"
+        }
+      ]
+    },
+    {
+      "key": "lowvig",
+      "title": "LowVig.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:38Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:38Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:38Z"
+        }
+      ]
+    },
+    {
+      "key": "betonlineag",
+      "title": "BetOnline.ag",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:54Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:54Z"
+        }
+      ]
+    },
+    {
+      "key": "betrivers",
+      "title": "BetRivers",
+      "markets": [
+        {
+          "key": "alternate_spreads",
+          "last_update": "2026-09-24T02:25:33Z"
+        },
+        {
+          "key": "alternate_totals",
+          "last_update": "2026-09-24T02:25:33Z"
+        },
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:53Z"
+        },
+        {
+          "key": "odd_even",
+          "last_update": "2026-09-24T02:25:33Z"
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-09-24T02:25:53Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:53Z"
+        }
+      ]
+    },
+    {
+      "key": "betus",
+      "title": "BetUS",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-09-24T02:25:20Z"
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-09-24T02:25:20Z"
+        }
+      ]
+    }
+  ]
+}
