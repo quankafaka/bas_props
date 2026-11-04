@@ -1,5 +1,7 @@
-odds-api/data
 .venv
 .env
 .DS_Store
-.idea
+.idea/
+__pycache__/
+# trader state is per-machine runtime data; the desk recreates it on first save
+src/dashboard/data/
