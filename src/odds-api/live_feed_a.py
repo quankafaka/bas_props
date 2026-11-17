@@ -17,7 +17,8 @@ The log records both, so the report can show how many paid fetches had no change
   python src/odds-api/live_feed_a.py --dry-run
   python src/odds-api/live_feed_a.py --minutes 60 --interval 120 --markets player_points --budget 80
 
-Output: src/odds-api/data/live_feed_a/<run>/polls.jsonl, changes.jsonl, summary.json
+Output: src/odds-api/data/live_feed_a/<run>/polls.jsonl, changes.jsonl, summary.json,
+        raw/<poll>_markets.json and raw/<poll>_odds.json (full API responses, for offline replay)
 """
 
 import argparse
@@ -76,6 +77,13 @@ def outcome_prices(odds_resp):
     return out
 
 
+def save_raw(run_dir, poll, kind, response, credits, received=None):
+    """Keep the untouched API response so versions B/C can be replayed offline without new credits."""
+    path = run_dir / "raw" / f"{poll:03d}_{kind}.json"
+    path.write_text(json.dumps({"received": (received or now()).isoformat(), "credits": credits,
+                                "response": response}))
+
+
 def pick_event(api, event_id):
     events = api.get(f"/sports/{SPORT}/events")  # free
     if event_id:
@@ -118,7 +126,7 @@ def main():
         return
 
     run_dir = ODDS_API_DATA_DIR / "live_feed_a" / now().strftime("%Y%m%dT%H%M%SZ")
-    run_dir.mkdir(parents=True, exist_ok=True)
+    (run_dir / "raw").mkdir(parents=True, exist_ok=True)
     polls_log = (run_dir / "polls.jsonl").open("a", encoding="utf-8")
     changes_log = (run_dir / "changes.jsonl").open("a", encoding="utf-8")
 
@@ -138,6 +146,7 @@ def main():
             before = api.credits_this_run
             mk = api.get(f"/sports/{SPORT}/events/{ev['id']}/markets", regions=args.regions)
             markets_cost = api.credits_this_run - before
+            save_raw(run_dir, n_polls + 1, "markets", mk, markets_cost)
             new_stamps = market_stamps(mk, set(watched))
             moved = sorted({m for (b, m), ts in new_stamps.items() if stamps.get((b, m)) != ts})
             stamps = new_stamps
@@ -149,6 +158,7 @@ def main():
                                markets=",".join(moved), oddsFormat="american")
                 received = now()
                 odds_cost = api.credits_this_run - before
+                save_raw(run_dir, n_polls + 1, "odds", odds, odds_cost, received)
                 n_fetches += 1
                 new_prices = outcome_prices(odds)
                 for key, (point, price, upd) in new_prices.items():
