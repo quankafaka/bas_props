@@ -137,6 +137,28 @@ def main():
     end_at = time.monotonic() + args.minutes * 60
     stop_reason = "finished"
 
+    def write_summary(status):
+        """Totals for the report; rewritten after every poll so a cut-off run still has them."""
+        minutes = (now() - start).total_seconds() / 60
+        summary = {
+            "version": "A (poll /markets last_update, fetch only moved markets)",
+            "status": status,
+            "event": label, "event_id": ev["id"], "markets_watched": watched, "regions": args.regions,
+            "books_seen": len({k[0] for k in prices}),
+            "player_lines_tracked": len({k[:3] for k in prices}),
+            "started": start.isoformat(), "duration_min": round(minutes, 1),
+            "interval_s": args.interval, "polls": n_polls, "odds_fetches": n_fetches,
+            "fetches_with_no_price_change": n_wasted, "odds_changes": n_changes,
+            "credits_used": api.credits_this_run,
+            "credits_per_hour": round(api.credits_this_run / minutes * 60, 1) if minutes else None,
+            "credits_left_on_plan": api.remaining,
+            "latency_s": ({"n": len(latencies), "median": statistics.median(latencies),
+                           "min": min(latencies), "max": max(latencies)} if latencies else None),
+        }
+        (run_dir / "summary.json").write_text(json.dumps(summary, indent=2))
+        return summary
+
+
     try:
         while time.monotonic() < end_at:
             tick = time.monotonic()
@@ -183,6 +205,7 @@ def main():
                 "odds_cost": odds_cost, "odds_changes": changed_here,
                 "credits_this_run": api.credits_this_run, "credits_left": api.remaining}) + "\n")
             polls_log.flush(); changes_log.flush()
+            write_summary("running")
             print(f"{now():%H:%M:%S} poll {n_polls}: moved {len(moved)} market(s), "
                   f"{changed_here} odds changes, credits {api.credits_this_run} (left {api.remaining})", flush=True)
             time.sleep(max(0, args.interval - (time.monotonic() - tick)))
@@ -191,22 +214,7 @@ def main():
     except ApiError as e:
         stop_reason = f"api error: {e}"
 
-    minutes = (now() - start).total_seconds() / 60
-    summary = {
-        "version": "A (poll /markets last_update, fetch only moved markets)",
-        "event": label, "event_id": ev["id"], "markets_watched": watched, "regions": args.regions,
-        "books_seen": len({k[0] for k in prices}),
-        "player_lines_tracked": len({k[:3] for k in prices}),
-        "started": start.isoformat(), "duration_min": round(minutes, 1), "stop_reason": stop_reason,
-        "interval_s": args.interval, "polls": n_polls, "odds_fetches": n_fetches,
-        "fetches_with_no_price_change": n_wasted, "odds_changes": n_changes,
-        "credits_used": api.credits_this_run,
-        "credits_per_hour": round(api.credits_this_run / minutes * 60, 1) if minutes else None,
-        "credits_left_on_plan": api.remaining,
-        "latency_s": ({"n": len(latencies), "median": statistics.median(latencies),
-                       "min": min(latencies), "max": max(latencies)} if latencies else None),
-    }
-    (run_dir / "summary.json").write_text(json.dumps(summary, indent=2))
+    summary = write_summary(stop_reason)
     print(json.dumps(summary, indent=2))
     print(f"Logs: {run_dir}")
 

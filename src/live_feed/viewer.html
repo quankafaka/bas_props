@@ -47,7 +47,7 @@ async function load() {
   const mins = polls.length ? (new Date(last.at) - new Date(polls[0].at)) / 60000 : 0;
 
   document.getElementById("run").textContent =
-    `Corrida ${run} · ${summary ? "terminada" : "en curso"} · se actualiza cada 15 s`;
+    `Corrida ${run} · ${summary && JSON.parse(summary).status !== "running" ? "terminada" : "en curso"} · se actualiza cada 15 s`;
   const kpi = (label, v) => `<div class="kpi"><span class="muted">${label}</span><b>${v}</b></div>`;
   document.getElementById("kpis").innerHTML =
     kpi("Minutos", mins.toFixed(0)) + kpi("Consultas", polls.length) +
