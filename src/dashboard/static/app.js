@@ -103,6 +103,9 @@ function showEmpty(message) {
 }
 
 function applyLive(l) {
+  // Live feed mode: new odds arrived on the server, so fetch the repriced board
+  if (S.boardVersion && l.board_version !== S.boardVersion) { S.boardVersion = l.board_version; loadBoard(); }
+  S.boardVersion = l.board_version;
   S.live = l;
   S.settings = l.settings;
   S.alertMap = Object.fromEntries(l.alerts.map((a) => [a.prop_id, a]));
@@ -142,7 +145,9 @@ function renderTop() {
   if (!S.meta) return;
   const m = S.meta;
   const when = m.pulled_at ? new Date(m.pulled_at).toLocaleString([], { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "unknown";
-  $("#snapshot").innerHTML = `Odds snapshot ${esc(when)}, ${m.bookmakers.length} books` +
+  $("#snapshot").innerHTML = (m.source === "live"
+      ? `Live feed: ${m.odds_pulls} pulls, last ${esc(when)}, ${m.bookmakers.length} books`
+      : `Odds snapshot ${esc(when)}, ${m.bookmakers.length} books`) +
     (m.source === "sample" ? ` <span class="badge-sample" title="Invented players and prices from make_sample_data.py">Sample data</span>` : "");
 
   const t = S.live.totals || {};

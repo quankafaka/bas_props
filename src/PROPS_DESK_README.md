@@ -37,7 +37,8 @@ bas_props/
     │   ├── simulator.py          fake bettors for the demo
     │   ├── static/               the page (HTML, CSS, JS)
     │   └── data/trader_state.json   saved statuses, prices, change log
-    └── live_feed/                credit-usage tests for a live odds feed (see its README.md)
+    └── live_feed/                credit-usage tests for a live odds feed (see its README.md);
+                                  `server.py --live-run latest` shows a running test's odds on the dashboard
 ```
 
 ## How prices are set

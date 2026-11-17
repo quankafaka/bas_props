@@ -26,6 +26,7 @@ import json
 import mimetypes
 import sys
 import threading
+import time
 import webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -34,10 +35,14 @@ from urllib.parse import parse_qs, urlparse
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # src/, for general_utility
 sys.path.insert(0, str(Path(__file__).resolve().parent))      # dashboard modules
 
-from general_utility.create_path import DASHBOARD_STATE_FILE, DASHBOARD_STATIC_DIR, rel  # noqa: E402
+from general_utility.create_path import DASHBOARD_DATA_DIR, DASHBOARD_STATE_FILE, DASHBOARD_STATIC_DIR, rel  # noqa: E402
 from board import SnapshotMissing, build_board, load_snapshot  # noqa: E402
 from desk import Desk  # noqa: E402
 from simulator import BetSimulator  # noqa: E402
+import live_source  # noqa: E402
+
+LIVE_STATE_FILE = DASHBOARD_DATA_DIR / "trader_state_live.json"  # keeps the snapshot demo's state untouched
+LIVE_CHECK_SECONDS = 2
 
 DESK = None
 LOAD_ERROR = None
@@ -126,24 +131,67 @@ class Handler(BaseHTTPRequestHandler):
             self.send_json({"error": str(e)}, 400)
 
 
+def start_live(run):
+    """Load the board from a live_feed run, then watch it for new odds files."""
+    global DESK, LOAD_ERROR
+    run_dir = live_source.latest_run() if run == "latest" else Path(run).resolve()
+    seen = live_source.odds_files(run_dir)
+    if not seen:
+        LOAD_ERROR = f"No odds pulled yet in {rel(run_dir)}. Start src/live_feed/feed_version_a.py first."
+        print(LOAD_ERROR)
+        return
+    meta, events, rows = live_source.load_live(run_dir)
+    games, props = build_board(meta, events, rows)
+    DESK = Desk(meta, games, props, LIVE_STATE_FILE)
+    BetSimulator(DESK).start()
+    print(f"Live feed mode: {rel(run_dir)} ({len(seen)} odds pulls, {len(props):,} props)")
+    print(f"Trader state: {rel(LIVE_STATE_FILE)}")
+
+    def watch():
+        nonlocal seen
+        while True:
+            time.sleep(LIVE_CHECK_SECONDS)
+            try:
+                files = live_source.odds_files(run_dir)
+                new = files[len(seen):]
+                if not new:
+                    continue
+                meta, events, rows = live_source.load_live(run_dir)
+                DESK.reload(meta, *build_board(meta, events, rows))
+                for f in new:
+                    live_source.log_received(run_dir, f)
+                seen = files
+                print(f"[live] {new[-1].name}: board refreshed ({len(DESK.props):,} props)", flush=True)
+            except Exception as e:  # keep serving even if one file is half-written
+                print(f"[live] {e}", flush=True)
+
+    threading.Thread(target=watch, daemon=True).start()
+
+
 def main():
     global DESK, LOAD_ERROR
     ap = argparse.ArgumentParser(description="Run the props trading desk demo.")
     ap.add_argument("--port", type=int, default=8050)
     ap.add_argument("--no-browser", action="store_true")
+    ap.add_argument("--live-run", metavar="RUN",
+                    help='read odds from a live_feed test run instead of the snapshot: "latest" or a run folder; '
+                         "the board refreshes as the feed pulls new odds")
     args = ap.parse_args()
 
-    try:
-        meta, events, rows = load_snapshot()
-        games, props = build_board(meta, events, rows)
-        DESK = Desk(meta, games, props, DASHBOARD_STATE_FILE)
-        BetSimulator(DESK).start()
-        source = "SAMPLE data" if meta.get("source") == "sample" else "real odds"
-        print(f"Loaded {len(games)} games and {len(props):,} props ({source}, snapshot {meta.get('pulled_at', '?')[:16]})")
-        print(f"Trader state: {rel(DASHBOARD_STATE_FILE)}")
-    except SnapshotMissing as e:
-        LOAD_ERROR = str(e)
-        print(LOAD_ERROR)
+    if args.live_run:
+        start_live(args.live_run)
+    else:
+        try:
+            meta, events, rows = load_snapshot()
+            games, props = build_board(meta, events, rows)
+            DESK = Desk(meta, games, props, DASHBOARD_STATE_FILE)
+            BetSimulator(DESK).start()
+            source = "SAMPLE data" if meta.get("source") == "sample" else "real odds"
+            print(f"Loaded {len(games)} games and {len(props):,} props ({source}, snapshot {meta.get('pulled_at', '?')[:16]})")
+            print(f"Trader state: {rel(DASHBOARD_STATE_FILE)}")
+        except SnapshotMissing as e:
+            LOAD_ERROR = str(e)
+            print(LOAD_ERROR)
 
     url = f"http://localhost:{args.port}"
     try:

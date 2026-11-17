@@ -21,7 +21,8 @@ src/live_feed/
     └── version_a/<UTC start time>/
         ├── polls.jsonl      one line per poll: credits spent, markets that moved, odds changes
         ├── changes.jsonl    one line per odds change: book, player, side, old/new line and price, latency
-        ├── summary.json     totals for the report (written when the run finishes)
+        ├── summary.json     totals for the report (rewritten after every poll)
+        ├── dashboard_received.jsonl  when the props dashboard picked up each odds pull (live mode only)
         └── raw/             the untouched API responses, so versions B and C can be replayed offline
 ```
 
@@ -38,9 +39,15 @@ python src/live_feed/feed_version_a.py --dry-run
 # 2. Real run: 1 hour, poll every 2 minutes, stop before 80 credits
 python src/live_feed/feed_version_a.py --minutes 60 --interval 120 --markets player_points --budget 80
 
-# 3. Watch it live (in a second terminal), then open http://localhost:8060/viewer.html
+# 3. Watch the run's log live (second terminal), then open http://localhost:8060/viewer.html
 python -m http.server 8060 --directory src/live_feed
+
+# 4. See the odds in the props dashboard (third terminal), then open http://localhost:8050
+#    The board refreshes on its own every time the feed pulls new odds.
+python src/dashboard/server.py --live-run latest
 ```
+
+In live mode the dashboard reads the run's `raw/*_odds.json` files (newest price per book, player and side wins) and keeps its trader state in `src/dashboard/data/trader_state_live.json`, so the snapshot demo's state is untouched. Every time it picks up a new odds file it adds a line to the run's `dashboard_received.jsonl`: API `last_update`, when the feed received it, when the dashboard loaded it, and the delays between them. Simulated bets still come from `simulator.py`; they don't use the API.
 
 Options: `--event <id>` (default: next NBA game), `--markets` (comma list, e.g. `player_points,player_rebounds`), `--regions` (default `us`).
 

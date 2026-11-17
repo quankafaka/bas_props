@@ -55,6 +55,15 @@ class Desk:
         self.exposure = defaultdict(lambda: {"handle": [0.0, 0.0], "payout": [0.0, 0.0], "count": [0, 0]})
         self.ack = {}  # prop id -> handle at the moment a trader last acted on it
         self._next_bet_id = 1
+        self.board_version = 1  # bumped when live odds replace the board, so the page reloads it
+
+    def reload(self, meta, games, props):
+        """Swap in fresh odds (live feed mode). Trader state, bets and exposure are kept:
+        main-market prop ids don't include the line, so they survive line moves."""
+        with self.lock:
+            self.meta, self.games, self.props = meta, games, props
+            self.games_by_id = {g["event_id"]: g for g in games}
+            self.board_version += 1
 
     # ------------------------------------------------------------------ state
 
@@ -158,7 +167,8 @@ class Desk:
     def meta_summary(self):
         m = self.meta
         return {"pulled_at": m.get("pulled_at"), "source": m.get("source", "api"),
-                "sports": m.get("sports", []), "bookmakers": m.get("bookmakers", [])}
+                "sports": m.get("sports", []), "bookmakers": m.get("bookmakers", []),
+                "odds_pulls": m.get("odds_pulls")}
 
     def book_quotes(self, pid):
         return self.props[pid]["book_quotes"]
@@ -491,6 +501,7 @@ class Desk:
             alerts.sort(key=lambda a: a["worst"])
             live_ids = self.live_prop_ids()
             return {
+                "board_version": self.board_version,
                 "settings": self.state["settings"],
                 "totals": {
                     "live": len(live_ids),
