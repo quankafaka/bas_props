@@ -14,10 +14,10 @@ Caveat found while testing: last_update is when The Odds API last scraped the
 book, not when the price changed, so most markets "move" on every poll.
 The log records both, so the report can show how many paid fetches had no change.
 
-  python src/odds-api/live_feed_a.py --dry-run
-  python src/odds-api/live_feed_a.py --minutes 60 --interval 120 --markets player_points --budget 80
+  python src/live_feed/feed_version_a.py --dry-run
+  python src/live_feed/feed_version_a.py --minutes 60 --interval 120 --markets player_points --budget 80
 
-Output: src/odds-api/data/live_feed_a/<run>/polls.jsonl, changes.jsonl, summary.json,
+Output: src/live_feed/runs/version_a/<run>/polls.jsonl, changes.jsonl, summary.json,
         raw/<poll>_markets.json and raw/<poll>_odds.json (full API responses, for offline replay)
 """
 
@@ -31,9 +31,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # src/, for general_utility
-sys.path.insert(0, str(Path(__file__).resolve().parent))      # pull_snapshot
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "odds-api"))  # reuse pull_snapshot's API client
 
-from general_utility.create_path import ODDS_API_DATA_DIR, SRC_DIR  # noqa: E402
+from general_utility.create_path import LIVE_FEED_RUNS_DIR, SRC_DIR  # noqa: E402
 from pull_snapshot import ApiError, OddsApi, load_dotenv, parse_time  # noqa: E402
 
 SPORT = "basketball_nba"
@@ -125,7 +125,7 @@ def main():
     if args.dry_run:
         return
 
-    run_dir = ODDS_API_DATA_DIR / "live_feed_a" / now().strftime("%Y%m%dT%H%M%SZ")
+    run_dir = LIVE_FEED_RUNS_DIR / "version_a" / now().strftime("%Y%m%dT%H%M%SZ")
     (run_dir / "raw").mkdir(parents=True, exist_ok=True)
     polls_log = (run_dir / "polls.jsonl").open("a", encoding="utf-8")
     changes_log = (run_dir / "changes.jsonl").open("a", encoding="utf-8")

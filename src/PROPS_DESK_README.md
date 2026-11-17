@@ -29,14 +29,15 @@ bas_props/
     │   ├── pull_snapshot.py      one-time pull from The Odds API
     │   ├── make_sample_data.py   sample snapshot in the same format
     │   └── data/                 the snapshot the dashboard reads
-    └── dashboard/
-        ├── server.py             local web server + API
-        ├── board.py              snapshot -> games -> markets -> props
-        ├── pricing.py            consensus and our price (odds math)
-        ├── desk.py               trader controls, exposure, alerts
-        ├── simulator.py          fake bettors for the demo
-        ├── static/               the page (HTML, CSS, JS)
-        └── data/trader_state.json   saved statuses, prices, change log
+    ├── dashboard/
+    │   ├── server.py             local web server + API
+    │   ├── board.py              snapshot -> games -> markets -> props
+    │   ├── pricing.py            consensus and our price (odds math)
+    │   ├── desk.py               trader controls, exposure, alerts
+    │   ├── simulator.py          fake bettors for the demo
+    │   ├── static/               the page (HTML, CSS, JS)
+    │   └── data/trader_state.json   saved statuses, prices, change log
+    └── live_feed/                credit-usage tests for a live odds feed (see its README.md)
 ```
 
 ## How prices are set

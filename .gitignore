@@ -5,3 +5,5 @@
 __pycache__/
 # trader state is per-machine runtime data; the desk recreates it on first save
 src/dashboard/data/
+# live feed test runs: logs and raw API responses, kept per machine
+src/live_feed/runs/

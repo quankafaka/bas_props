@@ -65,6 +65,13 @@ DASHBOARD_STATIC_DIR = DASHBOARD_DIR / "static"
 DASHBOARD_DATA_DIR = DASHBOARD_DIR / "data"
 DASHBOARD_STATE_FILE = DASHBOARD_DATA_DIR / "trader_state.json"
 
+# ---------------------------------------------------------------------------
+# live_feed (credit-usage tests for a live odds feed)
+# ---------------------------------------------------------------------------
+
+LIVE_FEED_DIR = SRC_DIR / "live_feed"
+LIVE_FEED_RUNS_DIR = LIVE_FEED_DIR / "runs"
+
 # Add new modules' paths below in the same style.
 
 
@@ -109,6 +116,8 @@ if __name__ == "__main__":
         ("DASHBOARD_DIR", DASHBOARD_DIR),
         ("DASHBOARD_STATIC_DIR", DASHBOARD_STATIC_DIR),
         ("DASHBOARD_STATE_FILE", DASHBOARD_STATE_FILE),
+        ("LIVE_FEED_DIR", LIVE_FEED_DIR),
+        ("LIVE_FEED_RUNS_DIR", LIVE_FEED_RUNS_DIR),
     ]:
         status = "exists" if value.exists() else "missing"
         print(f"{name:<21} {value}  [{status}]")

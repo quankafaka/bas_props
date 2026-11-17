@@ -1,7 +1,7 @@
 <!doctype html>
-<!-- Live view of the latest live_feed_a run.
-     Serve src/odds-api with: python -m http.server 8060 --directory src/odds-api
-     then open http://localhost:8060/live_feed_a_view.html -->
+<!-- Live view of the latest version A run.
+     Serve src/live_feed with: python -m http.server 8060 --directory src/live_feed
+     then open http://localhost:8060/viewer.html -->
 <html lang="es">
 <head>
 <meta charset="utf-8">
@@ -28,7 +28,7 @@
 <h2>Consultas</h2>
 <table id="polls"><thead><tr><th>Hora (UTC)</th><th>Créditos /markets</th><th>Créditos odds</th><th>Cambios</th><th>Créditos usados</th><th>Quedan</th></tr></thead><tbody></tbody></table>
 <script>
-const base = "data/live_feed_a/";
+const base = "runs/version_a/";
 const lines = t => t.trim().split("\n").filter(Boolean).map(l => JSON.parse(l));
 const hhmm = s => s.slice(11, 19);
 const odds = (p, pr) => `${p ?? ""} ${pr > 0 ? "+" + pr : pr}`;
