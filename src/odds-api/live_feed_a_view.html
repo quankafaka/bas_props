@@ -1,0 +1,70 @@
+<!doctype html>
+<!-- Live view of the latest live_feed_a run.
+     Serve src/odds-api with: python -m http.server 8060 --directory src/odds-api
+     then open http://localhost:8060/live_feed_a_view.html -->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Prueba odds A</title>
+<style>
+  body { font: 14px system-ui, sans-serif; margin: 16px; background: #0f172a; color: #e2e8f0; }
+  h1 { font-size: 18px; margin: 0 0 4px; }
+  .muted { color: #94a3b8; }
+  .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+  .kpi { background: #1e293b; padding: 10px 14px; border-radius: 8px; min-width: 120px; }
+  .kpi b { display: block; font-size: 22px; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+  th, td { text-align: left; padding: 4px 8px; border-bottom: 1px solid #334155; }
+  th { color: #94a3b8; font-weight: 500; }
+  .up { color: #4ade80; } .down { color: #f87171; }
+</style>
+</head>
+<body>
+<h1>Versión A: créditos de The Odds API</h1>
+<div class="muted" id="run">Cargando…</div>
+<div class="kpis" id="kpis"></div>
+<h2>Cambios de odds</h2>
+<table id="changes"><thead><tr><th>Recibido (UTC)</th><th>Casa</th><th>Jugador</th><th>Lado</th><th>Antes</th><th>Ahora</th><th>Latencia</th></tr></thead><tbody></tbody></table>
+<h2>Consultas</h2>
+<table id="polls"><thead><tr><th>Hora (UTC)</th><th>Créditos /markets</th><th>Créditos odds</th><th>Cambios</th><th>Créditos usados</th><th>Quedan</th></tr></thead><tbody></tbody></table>
+<script>
+const base = "data/live_feed_a/";
+const lines = t => t.trim().split("\n").filter(Boolean).map(l => JSON.parse(l));
+const hhmm = s => s.slice(11, 19);
+const odds = (p, pr) => `${p ?? ""} ${pr > 0 ? "+" + pr : pr}`;
+const esc = s => String(s).replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+
+async function load() {
+  const listing = await (await fetch(base, { cache: "no-store" })).text();
+  const runs = [...listing.matchAll(/href="(\d{8}T\d{6}Z)\/"/g)].map(m => m[1]).sort();
+  const run = runs.at(-1);
+  if (!run) { document.getElementById("run").textContent = "Todavía no hay corridas."; return; }
+  const get = async f => { const r = await fetch(base + run + "/" + f, { cache: "no-store" }); return r.ok ? r.text() : ""; };
+  const polls = lines(await get("polls.jsonl"));
+  const changes = lines(await get("changes.jsonl"));
+  const summary = await get("summary.json");
+  const last = polls.at(-1) || {};
+  const mins = polls.length ? (new Date(last.at) - new Date(polls[0].at)) / 60000 : 0;
+
+  document.getElementById("run").textContent =
+    `Corrida ${run} · ${summary ? "terminada" : "en curso"} · se actualiza cada 15 s`;
+  const kpi = (label, v) => `<div class="kpi"><span class="muted">${label}</span><b>${v}</b></div>`;
+  document.getElementById("kpis").innerHTML =
+    kpi("Minutos", mins.toFixed(0)) + kpi("Consultas", polls.length) +
+    kpi("Créditos usados", last.credits_this_run ?? 0) + kpi("Quedan en la cuenta", last.credits_left ?? "–") +
+    kpi("Cambios de odds", changes.length);
+
+  document.querySelector("#changes tbody").innerHTML = changes.slice().reverse().map(c => {
+    const cls = c.price > c.old_price ? "up" : "down";
+    return `<tr><td>${hhmm(c.received)}</td><td>${esc(c.book)}</td><td>${esc(c.player)}</td><td>${esc(c.side)}</td>
+      <td>${odds(c.old_point, c.old_price)}</td><td class="${cls}">${odds(c.point, c.price)}</td>
+      <td>${c.latency_s == null ? "–" : Math.round(c.latency_s) + " s"}</td></tr>`;
+  }).join("");
+  document.querySelector("#polls tbody").innerHTML = polls.slice().reverse().map(p =>
+    `<tr><td>${hhmm(p.at)}</td><td>${p.markets_cost}</td><td>${p.odds_cost}</td><td>${p.odds_changes}</td>
+     <td>${p.credits_this_run}</td><td>${p.credits_left}</td></tr>`).join("");
+}
+load(); setInterval(load, 15000);
+</script>
+</body>
+</html>
