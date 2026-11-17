@@ -6,7 +6,7 @@ Each test keeps one NBA game's prop markets up to date for a set time and record
 
 | Version | Idea | Script | Status |
 |---|---|---|---|
-| A | Only fetch odds when the API says a market was updated | `feed_version_a.py` | Ready |
+| A | Only fetch odds when the API says a market was updated | `feed_version_a.py` | Done: [report](reports/version_a_2026-11-17.md) |
 | B | Fixed refresh intervals by time to kickoff (1 min under 30 min, 5 min under 1 h, 15 min otherwise) | — | Not started |
 | C | Other ways to save credits | — | Not started |
 
@@ -67,3 +67,4 @@ Credit costs are from the [official docs](https://the-odds-api.com/liveapi/guide
 - Watching one market costs the same as just fetching it (1 credit each). Version A only saves credits when many markets per game are watched and few change.
 - Latency is measured as "time we received it" minus `last_update`. The API doesn't expose the exact time the book changed the price, and the poll interval adds up to one interval of delay.
 - First (interrupted) run: Knicks @ Raptors, `player_points`, 20 minutes, 11 polls, 22 credits, 19 odds changes.
+- Full run: Knicks @ Raptors, 3 markets, 60 minutes, 30 polls, 120 credits, 627 odds changes. See `reports/version_a_2026-11-17.md`.
