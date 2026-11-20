@@ -1,7 +1,7 @@
 """
 Live odds for the dashboard, read from a live_feed test run instead of the one-time snapshot.
 
-The feed (src/live_feed/feed_version_a.py) saves every /odds response it pulls in
+The feed (src/live_feed/feed_version_a.py or feed_version_b.py) saves every /odds response it pulls in
 <run>/raw/NNN_odds.json. This module merges them (latest price per book x market x
 player x side wins) into the same (meta, events, rows) shape load_snapshot() returns,
 so build_board() and the rest of the desk work unchanged.
@@ -20,10 +20,11 @@ from general_utility.create_path import LIVE_FEED_RUNS_DIR
 SPORT_ALIAS = {"basketball_nba": "nba"}
 
 
-def latest_run(version="version_a"):
-    runs = sorted(p for p in (LIVE_FEED_RUNS_DIR / version).glob("*") if (p / "raw").is_dir())
+def latest_run():
+    """Newest run of any version (version_a/, version_b/, ...); run folders are named by UTC start time."""
+    runs = sorted((p for p in LIVE_FEED_RUNS_DIR.glob("*/*") if (p / "raw").is_dir()), key=lambda p: p.name)
     if not runs:
-        raise FileNotFoundError(f"No live feed runs in {LIVE_FEED_RUNS_DIR / version}")
+        raise FileNotFoundError(f"No live feed runs in {LIVE_FEED_RUNS_DIR}")
     return runs[-1]
 
 

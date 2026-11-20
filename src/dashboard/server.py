@@ -137,7 +137,7 @@ def start_live(run):
     run_dir = live_source.latest_run() if run == "latest" else Path(run).resolve()
     seen = live_source.odds_files(run_dir)
     if not seen:
-        LOAD_ERROR = f"No odds pulled yet in {rel(run_dir)}. Start src/live_feed/feed_version_a.py first."
+        LOAD_ERROR = f"No odds pulled yet in {rel(run_dir)}. Start a src/live_feed/feed_version_*.py run first."
         print(LOAD_ERROR)
         return
     meta, events, rows = live_source.load_live(run_dir)
