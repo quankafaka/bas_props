@@ -7,7 +7,7 @@ Each test keeps one NBA game's prop markets up to date for a set time and record
 | Version | Idea | Script | Status |
 |---|---|---|---|
 | A | Only fetch odds when the API says a market was updated | `feed_version_a.py` | Done: [report](reports/version_a_2026-11-17.md) |
-| B | Fixed refresh intervals by time to kickoff (1 min under 30 min, 5 min under 1 h, 15 min otherwise) | — | Not started |
+| B | Fixed refresh intervals by time to kickoff (1 min under 30 min, 5 min under 1 h, 15 min otherwise) | `feed_version_b.py` | Done: [report](reports/version_b_2026-11-19.md) |
 | C | Other ways to save credits | — | Not started |
 
 ## Folder
@@ -16,9 +16,10 @@ Each test keeps one NBA game's prop markets up to date for a set time and record
 src/live_feed/
 ├── README.md            this file
 ├── feed_version_a.py    version A test (calls the real API, spends credits)
-├── viewer.html          live page that shows the latest run
+├── feed_version_b.py    version B test (calls the real API, spends credits)
+├── viewer.html          live page that shows the latest version A run
 └── runs/                one folder per run (not in git)
-    └── version_a/<UTC start time>/
+    └── version_a/ or version_b/<UTC start time>/
         ├── polls.jsonl      one line per poll: credits spent, markets that moved, odds changes
         ├── changes.jsonl    one line per odds change: book, player, side, old/new line and price, latency
         ├── summary.json     totals for the report (rewritten after every poll)
@@ -51,6 +52,38 @@ In live mode the dashboard reads the run's `raw/*_odds.json` files (newest price
 
 Options: `--event <id>` (default: next NBA game), `--markets` (comma list, e.g. `player_points,player_rebounds`), `--regions` (default `us`).
 
+`--live-run latest` picks the newest run of any version.
+
+## How version B works
+
+No `/markets` check. Every poll fetches odds for all watched markets (1 credit per market per region), on a schedule set by the time left to tip-off:
+
+| Time to tip-off | Refresh |
+|---|---|
+| 30 min or less | every 1 min |
+| 30 to 60 min | every 5 min |
+| more than 60 min | every 15 min |
+
+A 15-minute step never jumps past the 60- or 30-minute mark; the next poll lands on it. The feed stops at tip-off (pre-game props only) or after `--minutes`. `polls.jsonl`, `changes.jsonl` and `summary.json` also record the tier each poll ran in, and `summary.json` breaks polls, credits and odds changes down by tier.
+
+Polls per game for `H` hours of pre-game coverage (H ≥ 1): `4 × (H − 1) + 36`. Credits = polls × markets × regions.
+
+```bash
+# Check the schedule logic (no API calls)
+python src/live_feed/feed_version_b.py --self-check
+
+# Preview: start 60 min before the next tip-off, 1 hour, 3 markets (spends nothing)
+python src/live_feed/feed_version_b.py --dry-run --start-before 60 --markets player_points,player_rebounds,player_assists
+
+# Real run: waits until 60 min before tip-off, then polls until tip-off
+python src/live_feed/feed_version_b.py --minutes 60 --start-before 60 --markets player_points,player_rebounds,player_assists --budget 150
+
+# Odds on the props dashboard, refreshed on every poll
+python src/dashboard/server.py --live-run latest
+```
+
+`--start-before 60` covers the 5-min and 1-min tiers (36 polls, 108 credits with 3 markets). Use `--start-before 90 --minutes 90` to also see the 15-min tier.
+
 ## How version A works
 
 The Odds API has no push or websocket, so "only on update" has to be built with polling. Each poll:
@@ -68,3 +101,4 @@ Credit costs are from the [official docs](https://the-odds-api.com/liveapi/guide
 - Latency is measured as "time we received it" minus `last_update`. The API doesn't expose the exact time the book changed the price, and the poll interval adds up to one interval of delay.
 - First (interrupted) run: Knicks @ Raptors, `player_points`, 20 minutes, 11 polls, 22 credits, 19 odds changes.
 - Full run: Knicks @ Raptors, 3 markets, 60 minutes, 30 polls, 120 credits, 627 odds changes. See `reports/version_a_2026-11-17.md`.
+- Version B run (Nov 19): Warriors @ Grizzlies, 3 markets, last 60 minutes before tip-off, 36 polls, 108 credits, 1,944 odds changes, median delay 31 s at 1-minute refresh. Credits depend only on polls × markets × regions. NBA with up to about 8 markets fits the 100K plan. See `reports/version_b_2026-11-19.md`.
